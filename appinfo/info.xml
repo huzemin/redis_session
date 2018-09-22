@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>redis_session</id>
+	<name>Redis session</name>
+	<summary>Use redis to save user session.</summary>
+	<description>Use redis to save user session.</description>
+	<version>1.0.0</version>
+	<licence>agpl</licence>
+	<author>hzmn2079@corp.netease.com</author>
+	<namespace>RedisSession</namespace>
+	<default_enable/>
+	<types>
+		<session />
+	</types>
+	<category>session</category>
+	<dependencies>
+		<nextcloud min-version="14" max-version="14" />
+	</dependencies>
+</info>
